@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TeamDS" targetNamespace="http://tempuri.org/TeamDS.xsd" xmlns:mstns="http://tempuri.org/TeamDS.xsd" xmlns="http://tempuri.org/TeamDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TeamDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TeamDS" msprop:Generator_UserDSName="TeamDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Team" msprop:Generator_TableClassName="TeamDataTable" msprop:Generator_TableVarName="tableTeam" msprop:Generator_TablePropName="Team" msprop:Generator_RowDeletingName="TeamRowDeleting" msprop:Generator_RowChangingName="TeamRowChanging" msprop:Generator_RowEvHandlerName="TeamRowChangeEventHandler" msprop:Generator_RowDeletedName="TeamRowDeleted" msprop:Generator_UserTableName="Team" msprop:Generator_RowChangedName="TeamRowChanged" msprop:Generator_RowEvArgName="TeamRowChangeEvent" msprop:Generator_RowClassName="TeamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TeamDetailsID" msprop:Generator_ColumnVarNameInTable="columnTeamDetailsID" msprop:Generator_ColumnPropNameInRow="TeamDetailsID" msprop:Generator_ColumnPropNameInTable="TeamDetailsIDColumn" msprop:Generator_UserColumnName="TeamDetailsID" type="xs:int" minOccurs="0" />
+              <xs:element name="LeagueID" msprop:Generator_ColumnVarNameInTable="columnLeagueID" msprop:Generator_ColumnPropNameInRow="LeagueID" msprop:Generator_ColumnPropNameInTable="LeagueIDColumn" msprop:Generator_UserColumnName="LeagueID" type="xs:int" minOccurs="0" />
+              <xs:element name="CoachID" msprop:Generator_ColumnVarNameInTable="columnCoachID" msprop:Generator_ColumnPropNameInRow="CoachID" msprop:Generator_ColumnPropNameInTable="CoachIDColumn" msprop:Generator_UserColumnName="CoachID" type="xs:int" minOccurs="0" />
+              <xs:element name="Championships" msprop:Generator_ColumnVarNameInTable="columnChampionships" msprop:Generator_ColumnPropNameInRow="Championships" msprop:Generator_ColumnPropNameInTable="ChampionshipsColumn" msprop:Generator_UserColumnName="Championships" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

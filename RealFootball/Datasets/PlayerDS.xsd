@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PlayerDS" targetNamespace="http://tempuri.org/PlayerDS.xsd" xmlns:mstns="http://tempuri.org/PlayerDS.xsd" xmlns="http://tempuri.org/PlayerDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PlayerDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PlayerDS" msprop:Generator_UserDSName="PlayerDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Player" msprop:Generator_TableClassName="PlayerDataTable" msprop:Generator_TableVarName="tablePlayer" msprop:Generator_TablePropName="Player" msprop:Generator_RowDeletingName="PlayerRowDeleting" msprop:Generator_RowChangingName="PlayerRowChanging" msprop:Generator_RowEvHandlerName="PlayerRowChangeEventHandler" msprop:Generator_RowDeletedName="PlayerRowDeleted" msprop:Generator_UserTableName="Player" msprop:Generator_RowChangedName="PlayerRowChanged" msprop:Generator_RowEvArgName="PlayerRowChangeEvent" msprop:Generator_RowClassName="PlayerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_UserColumnName="FirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_UserColumnName="LastName" type="xs:string" minOccurs="0" />
+              <xs:element name="Hometown" msprop:Generator_ColumnVarNameInTable="columnHometown" msprop:Generator_ColumnPropNameInRow="Hometown" msprop:Generator_ColumnPropNameInTable="HometownColumn" msprop:Generator_UserColumnName="Hometown" type="xs:string" minOccurs="0" />
+              <xs:element name="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" msprop:Generator_UserColumnName="State" type="xs:string" minOccurs="0" />
+              <xs:element name="BirthDate" msprop:Generator_ColumnVarNameInTable="columnBirthDate" msprop:Generator_ColumnPropNameInRow="BirthDate" msprop:Generator_ColumnPropNameInTable="BirthDateColumn" msprop:Generator_UserColumnName="BirthDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TeamID" msprop:Generator_ColumnVarNameInTable="columnTeamID" msprop:Generator_ColumnPropNameInRow="TeamID" msprop:Generator_ColumnPropNameInTable="TeamIDColumn" msprop:Generator_UserColumnName="TeamID" type="xs:int" minOccurs="0" />
+              <xs:element name="College" msprop:Generator_ColumnVarNameInTable="columnCollege" msprop:Generator_ColumnPropNameInRow="College" msprop:Generator_ColumnPropNameInTable="CollegeColumn" msprop:Generator_UserColumnName="College" type="xs:string" minOccurs="0" />
+              <xs:element name="PositionID" msprop:Generator_ColumnVarNameInTable="columnPositionID" msprop:Generator_ColumnPropNameInRow="PositionID" msprop:Generator_ColumnPropNameInTable="PositionIDColumn" msprop:Generator_UserColumnName="PositionID" type="xs:int" minOccurs="0" />
+              <xs:element name="Height" msprop:Generator_ColumnVarNameInTable="columnHeight" msprop:Generator_ColumnPropNameInRow="Height" msprop:Generator_ColumnPropNameInTable="HeightColumn" msprop:Generator_UserColumnName="Height" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight" msprop:Generator_ColumnVarNameInTable="columnWeight" msprop:Generator_ColumnPropNameInRow="Weight" msprop:Generator_ColumnPropNameInTable="WeightColumn" msprop:Generator_UserColumnName="Weight" type="xs:int" minOccurs="0" />
+              <xs:element name="Strength" msprop:Generator_ColumnVarNameInTable="columnStrength" msprop:Generator_ColumnPropNameInRow="Strength" msprop:Generator_ColumnPropNameInTable="StrengthColumn" msprop:Generator_UserColumnName="Strength" type="xs:int" minOccurs="0" />
+              <xs:element name="Speed" msprop:Generator_ColumnVarNameInTable="columnSpeed" msprop:Generator_ColumnPropNameInRow="Speed" msprop:Generator_ColumnPropNameInTable="SpeedColumn" msprop:Generator_UserColumnName="Speed" type="xs:int" minOccurs="0" />
+              <xs:element name="Elusiveness" msprop:Generator_ColumnVarNameInTable="columnElusiveness" msprop:Generator_ColumnPropNameInRow="Elusiveness" msprop:Generator_ColumnPropNameInTable="ElusivenessColumn" msprop:Generator_UserColumnName="Elusiveness" type="xs:int" minOccurs="0" />
+              <xs:element name="Intelligence" msprop:Generator_ColumnVarNameInTable="columnIntelligence" msprop:Generator_ColumnPropNameInRow="Intelligence" msprop:Generator_ColumnPropNameInTable="IntelligenceColumn" msprop:Generator_UserColumnName="Intelligence" type="xs:int" minOccurs="0" />
+              <xs:element name="WorkEthic" msprop:Generator_ColumnVarNameInTable="columnWorkEthic" msprop:Generator_ColumnPropNameInRow="WorkEthic" msprop:Generator_ColumnPropNameInTable="WorkEthicColumn" msprop:Generator_UserColumnName="WorkEthic" type="xs:int" minOccurs="0" />
+              <xs:element name="Jump" msprop:Generator_ColumnVarNameInTable="columnJump" msprop:Generator_ColumnPropNameInRow="Jump" msprop:Generator_ColumnPropNameInTable="JumpColumn" msprop:Generator_UserColumnName="Jump" type="xs:int" minOccurs="0" />
+              <xs:element name="Agility" msprop:Generator_ColumnVarNameInTable="columnAgility" msprop:Generator_ColumnPropNameInRow="Agility" msprop:Generator_ColumnPropNameInTable="AgilityColumn" msprop:Generator_UserColumnName="Agility" type="xs:int" minOccurs="0" />
+              <xs:element name="Juke" msprop:Generator_ColumnVarNameInTable="columnJuke" msprop:Generator_ColumnPropNameInRow="Juke" msprop:Generator_ColumnPropNameInTable="JukeColumn" msprop:Generator_UserColumnName="Juke" type="xs:int" minOccurs="0" />
+              <xs:element name="ArmAccuracy" msprop:Generator_ColumnVarNameInTable="columnArmAccuracy" msprop:Generator_ColumnPropNameInRow="ArmAccuracy" msprop:Generator_ColumnPropNameInTable="ArmAccuracyColumn" msprop:Generator_UserColumnName="ArmAccuracy" type="xs:int" minOccurs="0" />
+              <xs:element name="RouteRunning" msprop:Generator_ColumnVarNameInTable="columnRouteRunning" msprop:Generator_ColumnPropNameInRow="RouteRunning" msprop:Generator_ColumnPropNameInTable="RouteRunningColumn" msprop:Generator_UserColumnName="RouteRunning" type="xs:int" minOccurs="0" />
+              <xs:element name="Hands" msprop:Generator_ColumnVarNameInTable="columnHands" msprop:Generator_ColumnPropNameInRow="Hands" msprop:Generator_ColumnPropNameInTable="HandsColumn" msprop:Generator_UserColumnName="Hands" type="xs:int" minOccurs="0" />
+              <xs:element name="Blocking" msprop:Generator_ColumnVarNameInTable="columnBlocking" msprop:Generator_ColumnPropNameInRow="Blocking" msprop:Generator_ColumnPropNameInTable="BlockingColumn" msprop:Generator_UserColumnName="Blocking" type="xs:int" minOccurs="0" />
+              <xs:element name="Tackling" msprop:Generator_ColumnVarNameInTable="columnTackling" msprop:Generator_ColumnPropNameInRow="Tackling" msprop:Generator_ColumnPropNameInTable="TacklingColumn" msprop:Generator_UserColumnName="Tackling" type="xs:int" minOccurs="0" />
+              <xs:element name="Coverage" msprop:Generator_ColumnVarNameInTable="columnCoverage" msprop:Generator_ColumnPropNameInRow="Coverage" msprop:Generator_ColumnPropNameInTable="CoverageColumn" msprop:Generator_UserColumnName="Coverage" type="xs:int" minOccurs="0" />
+              <xs:element name="Kicking" msprop:Generator_ColumnVarNameInTable="columnKicking" msprop:Generator_ColumnPropNameInRow="Kicking" msprop:Generator_ColumnPropNameInTable="KickingColumn" msprop:Generator_UserColumnName="Kicking" type="xs:int" minOccurs="0" />
+              <xs:element name="Punting" msprop:Generator_ColumnVarNameInTable="columnPunting" msprop:Generator_ColumnPropNameInRow="Punting" msprop:Generator_ColumnPropNameInTable="PuntingColumn" msprop:Generator_UserColumnName="Punting" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
